@@ -1,0 +1,118 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-div {
+    position: relative;
+    left: 80px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.resume-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:greenyellow;
+    border-radius: 16px;
+    padding-bottom: 16px;
+    gap: 32px;
+}
+
+.no-result {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 100px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+.no-result-image {
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+}
+.no-result-text {
+    font-size: 30px;
+}
+
+#img {
+    height: 160px;
+    padding: 32px;
+}
+
+.resume-applied-for {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.applied-for-p {
+    margin: 0;
+}
+
+.resume-main {
+    display: flex;
+    gap: 32px;
+}
+
+.resume-left-section {
+    background-color: pink;
+    padding: 32px;
+    border-radius: 16px;
+    height: fit-content;
+}
+
+.resume-right-section {
+    padding: 32px;
+    border-radius: 16px;
+    height: fit-content;
+}
+
+.company-name-div, .position-div, .start-date-div, .end-date-div, .summary-div {
+    display: flex;
+    gap: 16px;
+}
+
+.company-details p {
+    margin: 3.2px 0;
+}
+
+.company-name-span, 
+.position-span, 
+.start-date-span, 
+.end-date-span, 
+.summary-span,
+#project-span,
+.education-span {
+    font-weight: 600;
+}
